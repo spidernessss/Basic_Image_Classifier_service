@@ -1,0 +1,20 @@
+version: "3.9" # Use a supported version for Docker Compose
+
+services:
+  service3:
+    image: service3:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8010:8010"
+    volumes:
+      - "./static:/app/static"
+      - "./templates:/app/templates"
+      - "./model:/app/model"
+      - "./main.py:/app/main.py"
+# To RUN do this:
+#   docker-compose up -d
+# View the LOGS with:
+#   docker-compose logs service3
+#

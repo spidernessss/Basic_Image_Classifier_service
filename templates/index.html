@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MATRIX<br><br>Image Classifier</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Matrix Image Classifier</h1>
+        <div class="step-container" id="step1">
+            <h2>Step 1: Load Dataset (.zip)</h2>
+            <input type="file" id="dataset-file" accept=".zip">
+            <button id="load-dataset">Load</button>
+        </div>
+        <div class="step-container" id="step2">
+            <h2>Step 2: Load Input Image (.jpg)</h2>
+            <input type="file" id="image-file" accept="input_image/jpg">
+            <button id="load-image">Load</button>
+        </div>
+        </div>
+        <div class="step-container" id="step3">
+            <h2>Step 3: Start Classification</h2>
+            <button id="start-classification">Classify</button>
+            <img id="output-image" controls width="300" height="340" style="display:none;"> <!-- Changed 'image' to 'img' and hidden by default -->
+            <a id="download-link" style="display:none;">Download Image</a> <!-- Download link hidden by default -->
+            <a id="step-4" style="display:none;">Start Again</a>
+        </div>
+        <div class="step-container" id="step4">
+            <h2>Step 4: Start Again</h2>
+            <button id="start-over">Restart</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script> <!--- Update path -->
+</body>
+</html>

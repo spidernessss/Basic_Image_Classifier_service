@@ -1,0 +1,12 @@
+fastapi~=0.115.0
+jinja2
+uvicorn~=0.31.0
+starlette~=0.38.6
+python-multipart
+# pip install "fastapi[standard]"
+tensorflow==2.12.0
+opencv-python==4.10.0.82
+keras~=2.12.0
+numpy
+pillow
+python-multipart

@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to bottom, #141414, #000000);
+    color: #00FF00; /* Neon green text */
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #141414; /* Dark background */
+    padding: 30px;
+    border: 2px solid #00FF00; /* Neon green border */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #00FF00; /* Neon green shadow */
+}
+
+.title {
+    text-shadow: 0px 0px 5px #00FF00; /* Neon green text shadow */
+    margin-bottom: 20px;
+}
+
+.step-container {
+    display: none; /* Hide steps initially */
+    margin-bottom: 20px;
+}
+
+.step-container h2 {
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    background: #141414;
+    color: #00FF00;
+    border: 2px solid #00FF00;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background: #00FF00; /* Neon green button */
+    color: #141414;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 5px #00FF00;
+}
+
+button:hover {
+    background: #00AA00; /* Slightly darker green on hover */
+}
+
+video {
+    border: 2px solid #00FF00; /* Neon green border for video */
+}
+
